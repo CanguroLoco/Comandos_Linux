@@ -69,6 +69,7 @@ comandos extraídos de una clase de linux en servidores.
 | man | (Ninguna) | cowsay, grep, tail... | Muestra el manual oficial (documentación) de un comando. | (Recibe el nombre del comando a consultar). |
 | sort | (Ninguna) | (Salida de pipe) | Ordena líneas de archivos de texto o salidas de comandos. | (Ninguna, ordena alfanuméricamente por defecto). |
 | uniq | -c  | (Salida de pipe) | Filtra o reporta líneas repetidas adyacentes. | `-c`: Cuenta cuántas veces se repite cada línea. |
+| watch | -n | `ls -l`, `ss -tuln`, `free -m` | Ejecuta un comando repetidamente a intervalos regulares. | `-n`: Define el intervalo en segundos (ej: `-n 1` para cada segundo). |
 | who | am i | (Usuarios) | Muestra quién está conectado al sistema. | `am i`: Muestra solo la información de la sesión actual del usuario. |
 | whoami | (Ninguna) | (Usuario actual) | Imprime el nombre del usuario efectivo actual. | (Ninguna) |
 | last / lastb | (Ninguna) | (Registros de login) | Muestra un listado de los últimos usuarios conectados / intentos fallidos. | (Ninguna) |
@@ -84,6 +85,7 @@ comandos extraídos de una clase de linux en servidores.
 | ip  | address, a, -4 a, route... | ens18 | Herramienta de red (reemplaza ifconfig). | `address / a`: Direcciones IP. `-4`: Solo IPv4. `add show dev`: Mostrar detalles de dispositivo. |
 | ss  | -tulnp, -ant, -tuln | (Red/Puertos) | Investiga sockets (puertos abiertos y conexiones, reemplaza netstat). | `-t`: TCP. `-u`: UDP. `-l`: En escucha. `-n`: Puertos numéricos. `-p`: Muestra el proceso. `-a`: Todos. |
 | nmap | -sV, -O | 10.1.213.50... | Escáner de red. | `-sV`: Detecta versiones de servicios. `-O`: Detecta Sistema Operativo. |
+| arpspoof | -i, -t | `eth0`, `10.1.213.1`, `10.1.213.50` | Intercepta paquetes en una red local mediante falsificación de respuestas ARP. | `-i`: Interfaz de red. `-t`: Especifica el objetivo (target) y el host a suplantar. |
 | ping | (Ninguna) | 10.1.213.6... | Envía paquetes ICMP ECHO_REQUEST a hosts de red para verificar conectividad. | (Recibe la IP o dominio objetivo). |
 | tcpdump | -i  | ens18 arp, ens18 tcp | Analizador de paquetes de red desde la consola (Sniffer). | `-i`: Especifica la interfaz a escuchar (ej: ens18). |
 | netplan | apply | (Configuración de red) | Utilidad para configurar redes en Ubuntu/Debian modernos. | `apply`: Aplica los cambios realizados en los archivos .yaml de configuración. |
