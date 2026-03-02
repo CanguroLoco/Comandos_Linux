@@ -3,8 +3,6 @@ comandos extraídos de una clase de linux en servidores.
 
 Aquí tienes las tablas actualizadas con las dos columnas adicionales ("Función del Comando" y "Explicación de Argumentos") para detallar qué hace cada herramienta y para qué sirven las opciones especificadas:
 
-# Comandos_Linux
-comandos extraídos de una clase de linux en servidores. 
 
 | Programa | Función Corta |
 | --- | --- |
@@ -12,6 +10,7 @@ comandos extraídos de una clase de linux en servidores.
 | traceroute | Rastrea la ruta que siguen los paquetes desde tu equipo hasta un host destino. |
 | arp-scan | Escanea la red local enviando paquetes ARP para identificar dispositivos conectados. |
 | hydra | Herramienta de auditoría de seguridad para realizar ataques de fuerza bruta contra protocolos de red. |
+| dsniff | Herramienta de auditoría de seguridad para spoofing |
 
 ### Herramientas y Utilidades Generales
 
