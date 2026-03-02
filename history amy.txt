@@ -1,0 +1,387 @@
+     
+    1  nano juan.txt
+    2  clea
+    3  r
+    4  clearar
+    5  limpiar o q
+    6  clear
+    7  sudo tree
+    8  tree
+    9  sudo apt install tree
+   10  clear
+   11  tree
+   12  pwd
+   13  tree
+   14  pwd
+   15  xxx
+   16  clear
+   17  cd ~
+   18  pwd
+   19  cd ...
+   20  cd ..
+   21  pwd
+   22  tree
+   23  clear
+   24  sudo apt install apache2
+   25  claer
+   26  clear
+   27  systemctl status apache2
+   28  sudo nano /etc/netplan/50-cloud-init.yaml
+   29  sudo netplan apply
+   30  ping 10.1.213.6
+   31  ping 10.1.213.69
+   32  clear
+   33  cd /etc/apache2/
+   34  ls -
+   35  ls -l
+   36  hostname
+   37  clear
+   38  sudo systemctl stop apache2
+   39  cd
+   40  clear
+   41  sudo systemctl status ssh
+   42  sudo apt update
+   43  clear
+   44  sudo apt install cowsay
+   45  sudo apt update
+   46  man cowsay
+   47  sudo cowsay hi
+   48  sudo cowsay
+   49  sudo cowsay  -t "67"
+   50  cowsay  -t "67"
+   51  man cowsay
+   52  clear
+   53  cd /var/www
+   54  ls -l
+   55  cd html
+   56  ls -l
+   57  sudo nano index.html
+   58  sudo apt update
+   59  sudo apt install openssh-server -y
+   60  cd /etc/
+   61  ls
+   62  grep "ssh"
+   63  cd ssh
+   64  ls
+   65  ls =l
+   66  ls -l
+   67  exit
+   68  sudo apt install vsftpd -y
+   69  sudo systemtl status vsftpd
+   70  date
+   71  sudo date --set="2026-02-19 8:25:30"
+   72  sudo /etc/
+   73  cd /etc/
+   74  sudo nano vsftpd.conf
+   75  exit
+   76  ps -aux
+   77  ss -tulnp
+   78  sudo ss -tulnp
+   79  CLEAR
+   80  clear
+   81  sudo apt install isc-dhcp-server
+   82  2026
+   83  sudo apt install isc-dhcp-server
+   84  uTCH20I
+   85  sudo apt install isc-dhcp-server
+   86  clear
+   87  systemctl
+   88  clear
+   89  systemctl status isc-dhcp-server
+   90  sudo nano /etc/dhcp.conf
+   91  sudo nano /etc/dhcp/dhcpd.conf
+   92  clear
+   93  cd /etc/dhcp
+   94  ls -l
+   95  sudo cp dhcpd.conf
+   96  sudo cp dhcpd.conf dhcpd.conf.respaldo
+   97  ls -l
+   98  pwd
+   99  sudo nano dhcpd.conf
+  100  clear
+  101  status sy isc-dhcp-server
+  102  systemctl status isc-dhcp-server
+  103  ss -tulnp
+  104  six seven
+  105  sudo nano dhcpd.conf
+  106  clear
+  107  systemctl restart isc-dhcp-server
+  108  systemctl status isc-dhcp-server
+  109  ip address
+  110  ip a
+  111  sudo nano dhcpd.conf
+  112  systemctl restart isc-dhcp-server
+  113  systemctl status isc-dhcp-server
+  114  sudo nano dhcpd.conf
+  115  systemctl restart isc-dhcp-server
+  116  systemctl status isc-dhcp-server
+  117  clear
+  118  ls /l
+  119  ls -l
+  120  67 <- numero de municipios de chihuahua, decimonoveno numero primo...h
+  121  clear
+  122  cd /var/log
+  123  ls
+  124  ls -l
+  125  clear
+  126  compgen -u
+  127  wsuo
+  128  who
+  129  clear
+  130  who
+  131  w
+  132  who am i
+  133  whoami
+  134  ls
+  135  clear
+  136  ls -l /etc/passwd
+  137  clear
+  138  ls -l /et
+  139  cat 2
+  140  cat /etc/passwd
+  141  cat /etc/shadow
+  142  sudo cat /etc/shadow
+  143  clear
+  144  /var/log
+  145  cd /var/lod
+  146  cd /var/log
+  147  ls s-l
+  148  ls -l
+  149  cat auth.log
+  150  clear
+  151  cd $
+  152  clear
+  153  ls - l /var/log
+  154  ls -l /var/log
+  155  ls -l auth.log
+  156  pwd
+  157  cat /var/log/auth.log
+  158  cd /var/log
+  159  clear
+  160  ls -l
+  161  grep "sudo" auth.log
+  162  cd /var/log
+  163  clear
+  164  ls -l
+  165  grep "failed" auth.log
+  166  grep "Failed" auth.log
+  167  grep "Failed password" auth.log
+  168  ip add
+  169  sudo systemctl status i
+  170  sudo systemctl status i
+  171  nahiolna
+  172  asdfilj;
+  173  cos
+  174  cowsay vhoylavv
+  175  cmatri
+  176  cmatrix
+  177  sudo apt install cmatrix
+  178  cmatrix
+  179  logout
+  180  nano hola.txt
+  181  exit
+  182  grep "Failed password" /var/log/auth.log
+  183  ls -l /var/log
+  184  grep "firewall" /var/log/syslog
+  185  man grep
+  186  clcleear
+  187  clear
+  188  man tail
+  189  tail -f /var/log/syslog
+  190  tail -f /var/log/auth.log
+  191  man systemctl
+  192  man journalctl
+  193  journalctl -u sshd.service
+  194  journalctl -u sshd
+  195  journalctl -u /var/syslog sshd
+  196  journalctl -u /var/log/syslog sshd
+  197  journalctl -u /var/log/auth.log sshd
+  198  journalctl -u sshd.service
+  199  systemctl status sshd
+  200  systemctl status ssh
+  201  journalctl -u ssh
+  202  clear
+  203  du -sh /var/log
+  204  journalctl -u ssh
+  205  b 20 14:13:17 ir51m sshd[1129]: pam_unix(sshd:session): session opened for user ir51m(uid=1000>
+  206  Feb 20 14:22:58 ir51m sshd[1242]: pam_unix(sshd:auth): authentication failure; logname= uid=0 eu>
+  207  Feb 20 14:23:01 ir51m sshd[1242]: Failed password for ir51m from 10.1.213.77 port 57659 ssh2
+  208  Feb 20 14:23:15 ir51m sshd[1242]: Failed password for ir51m from 10.1.213.77 port 57659 ssh2
+  209  Feb 20 14:23:25 ir51m sshd[1242]: Accepted password for ir51m from 10.1.213.77 port 57659 ssh2
+  210  Feb 20 14:23:25 ir51m sshd[1242]: pam_unix(sshd:session): session opened for user ir51m(uid=1000>
+  211  Feb 20 14:27:43 ir51m sshd[1319]: Invalid user ev21m from 10.1.213.77 port 57666
+  212  Feb 20 14:27:49 ir51m sshd[1319]: pam_unix(sshd:auth): check pass; user unknown
+  213  clear
+  214  du -sh /var/log
+  215  sudo du -sh /var/log
+  216  sudo apt install logrotate
+  217  cd /etc/log/
+  218  cd /etc/logcheck
+  219  ls
+  220  ls -l
+  221  cd ..
+  222  cd logrotate.d/
+  223  ls -l
+  224  cd ..
+  225  cat /etc/logrotate.conf
+  226  clear
+  227  cd /var/log
+  228  ls -l
+  229  clear
+  230  cat vsftpd.log
+  231  sudo cat vsftpd.log
+  232  grep "fail login" vsftpd.log
+  233  sudo grep "fail login" vsftpd.log
+  234  sudo grep "FAIL LOGIN" vsftpd.log
+  235  sudo grep "fail login" vsftpd.log | awk
+  236  man awk
+  237  clear
+  238  sudo grep "FAIL LOGIN" vsftpd.log
+  239  sudo grep "fail login" vsftpd.log | awk -F '"' 'print $2'
+  240  sudo grep "fail login" vsftp
+  241  sudo grep "FAIL LOGIN"
+  242  sudo grep "FAIL LOGIN" vsftpd.log | awk -F '"' '{print $2}' | sort  | uniq -c
+  243  claer
+  244  clear
+  245  ip a
+  246  ip -4 a | awk '/inet / {print $2}' | awk -F/ '
+  247  ip -4 a
+  248  ip -4 a | awk '/inet / {print $2}'
+  249  ip -4 a | awk '/inet / {print $2}' | uniq -c
+  250  ip -4 a | awk '/inet / {print $2}' | swk -F / '{print $1}'
+  251  ip -4 a | awk '/inet / {print $2}' | awk -F / '{print $1}'
+  252  ip -4 a | awk '/inet / {print $1}' | swk -F / '{print $1}'
+  253  ip -4 a | awk '/inet / {print $1}' | awk -F / '{print $1}'
+  254  ip -4 a | awk '/inet / {print $2}' | awk -F / '{print $1}' without 127.
+  255  ip -4 add ens18 | awk '/inet / {print $1}' | awk -F / '{print $1}'
+  256  ip add ens18 | awk '/inet / {print $1}' | awk -F / '{print $1}'
+  257  ip add show dev ens18 | awk '/inet / {print $1}' | awk -F / '{print $1}'
+  258  ip add show dev ens18 | awk '/inet / {print $2}' | awk -F / '{print $1}'
+  259  ip add show dev ens18
+  260  ip a
+  261  clear
+  262  ip a
+  263  què hicimos? estaban contando las lìneas jajajajaja cuàles lìneas, que tipo de lienas estamos contando, pues lo de la de, awk. Trae tarjeta de dèbito o de crèdito, por la ine jajaj, la ine ola tarjeta de debido o ocretido, no la licencia no porque esa si la ven los transitos jaja, esta la digital jaja, hijole el celular jasjasj, pues la licencia de conducir nunca la van a ver porque sì... la detectan, no, me han platicado, un pirmo
+  264  cmatrix
+  265  cd \etcls
+  266  ls
+  267  pwd
+  268  cd ..
+  269  ls -l
+  270  cd ..
+  271  ls -l
+  272  who
+  273  cd \etc\
+  274  cd etc
+  275  cd etc\
+  276  cd \syslogs
+  277  clear
+  278  ls -l
+  279  cd ..
+  280  cd \var\log\
+  281  cd \var\
+  282  ls -l
+  283  cd log
+  284  ls -l
+  285  last
+  286  lastb
+  287  sudo lastb
+  288  lastlog
+  289  grep "sessions" \var\log\auth.log
+  290  grep "sessions" /var/log/auth.log
+  291  tail -f /var/log/auth.log
+  292  last
+  293  sudo lastb
+  294  SELECT * FROM auth.log
+  295  ls -l
+  296  clear
+  297  cat log
+  298  ls -l
+  299  cat kern.log
+  300  clear
+  301  cat kern.log | more
+  302  clear
+  303  cat kern.log | more
+  304  clear
+  305  pwd
+  306  ls- l
+  307  sudo grep -i "error" /var/log/kern.log
+  308  sudo grep -i "memory" /var/log/kern.log
+  309  clear
+  310  ip -a
+  311  ip a
+  312  clear
+  313  sudo grep -i "ens18" /var/log/kern.log
+  314  sudo grep -i "" /var/log/kern.log
+  315  tail -f /var/log/kern.log
+  316  clear
+  317  systemctl status
+  318  clear
+  319  systemctl status isc-dhcp-serve
+  320  systemctl status isc-dhcpd-serve
+  321  systemctl status isc-dhcpd-server
+  322  systemctl status isc-dhcp-server
+  323  systemctl status apache2
+  324  clear
+  325  cd /var/log/
+  326  ls -l
+  327  cd apache2
+  328  ls -l
+  329  clear
+  330  ls -l
+  331  cat access.log
+  332  cd $
+  333  cd ~
+  334  ip add
+  335  ipconfig
+  336  clear
+  337  cmatrix
+  338  ip a
+  339  clear
+  340  sudo nmap -sV 10.1.213.50
+  341  systemctl status isc-dhcp-server
+  342  clear
+  343  sudo nmap -sV 10.1.213.68
+  344  ip a
+  345  clear
+  346  sudo nmap -sV 10.1.213.70
+  347  sss
+  348  ss
+  349  clear
+  350  ss -tuln
+  351  systemctl status isc-dhcp-server
+  352  clear
+  353  sudo nmap -O 10.1.213.70
+  354  sudo nmap -sV 10.1.213.
+  355  clear
+  356  sudo nmap -sV 10.1.213.51
+  357  ss -ant
+  358  ss -tuln
+  359  curl http://10.1.213.70
+  360  curl http://10.1.213.50
+  361  clear
+  362  ip ad
+  363  systemctl status apache2
+  364  celar
+  365  clear
+  366  sudo ip a
+  367  clear
+  368  ip a
+  369  ip route
+  370  clear
+  371  watch -n 1 ip neigh
+  372  sudo tcpdump -i
+  373  sudo tcpdump -i ens18 arp
+  374  ip link arp neigh
+  375  clear
+  376  arp neigh
+  377  watch -n 1 ip neigh
+  378  clear
+  379  ss -ant
+  380  clear
+  381  sudo tcpdumpsudojsdsds
+  382  udo tcpdump -i ens18 tcp
+  383  sudo tcpdump -i ens18 tcp
+  384  ss -ant
+  385  ss -ant | grep SYN
+  386  history

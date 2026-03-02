@@ -1,0 +1,386 @@
+     
+    1  sudof apt net--tools
+    2  sudo apt net--tools
+    3  sudo apt ne--tools
+    4  sudo apt net-tools
+    5  git clone https://github.com/bitbrute/evillimiter.git
+    6  cd evillimiter
+    7  sudo python3 setup.py install
+    8  ip a
+    9  evillimiter scan 10.1.213.1 10.1.213.255
+   10  scan
+   11  scan --range 10.1.213.1 10.1.213.255
+   12  evillimiter
+   13  scan --range 10.1.213.1 10.1.213.255
+   14  sudo scan --range 10.1.213.1 10.1.213.255
+   15  sudo evillimiter scan --range 10.1.213.1 10.1.213.255
+   16  sudo evillimiter -h
+   17  sudo evillimiter -g
+   18  sudo evillimiter -g GATEWAY_IP
+   19  which evillimiter
+   20  sudo -i
+   21  sudo evillimiter
+   22  locale
+   23  clear
+   24  sudo evillimiter
+   25  ping 10.1.213.1
+   26  ip a
+   27  sudo evillimiter
+   28  ip a
+   29  locale
+   30  sudo locale-gen en_US.UTF-8
+   31  sudo update-locale LANG=en_US.UTF-8
+   32  export LANG=en_US.UTF-8
+   33  export TERM=xterm-256color
+   34  sudo evillimiter hosts
+   35  sudo evillimiter
+   36  echo "|__|"
+   37  evillimiter -v
+   38  evillimiter --version
+   39  evillimiter
+   40  sudo apt update
+   41  sudo apt install -y openssh-server
+   42  systemctl status ssh
+   43  sudo systemctl enable --now ssh
+   44  systemctl status ssh
+   45  ip a
+   46  hys
+   47  history
+   48  ip route
+   49  ip a
+   50  whoami
+   51  export TERM=xterm
+   52  sudo evillimiter hosts
+   53  sudo evillimiter
+   54  sudo evillimiter hosts --no-unicode
+   55  sudo evillimiter
+   56  sudo apt upgrade
+   57  sudo apt update
+   58  ping 10.1.213.69
+   59  sudo apt update
+   60  sudo apt upgrade
+   61  sudo apt install apache2 -y
+   62  sudo systemclt status apache2
+   63  sudo systemctl status apache2
+   64  cowsay ¨sup¨
+   65  AMAZINGBYE
+   66  EXIT
+   67  end
+   68  quit
+   69  exit
+   70  WOA APAGAR EL SERVER
+   71  SHUTDOWN
+   72  clear
+   73  IP A
+   74  ip a
+   75  sudo apt upgrade
+   76  nohup sudo apt update && sudo apt upgrade -y
+   77  sudo apt update && sudo apt upgrade -y
+   78  clear
+   79  sudo apt install openssh-server -y
+   80  sudo systemctl status ssh
+   81  cd etc/
+   82  cd /etc/
+   83  ls
+   84  grep "ssh"
+   85  grep ssh
+   86  grep -r "ssh" /etc/
+   87  pwd
+   88  clear
+   89  grep -r "ssh"
+   90  grep -rl "ssh"
+   91  cd ssh
+   92  ls
+   93  clear
+   94  ls
+   95  ls -l
+   96  sudo cat ssh_config
+   97  cd ..
+   98  clear
+   99  sudo apt update
+  100  sudp apt install vsftpd -y
+  101  sudo apt install vsftpd -y
+  102  sudo systemctl vsftpd
+  103  sudo systemctl status vsftpd
+  104  clear
+  105  date
+  106  sudo date --set="2026-02-13 07:44:00"
+  107  date
+  108  rm -R
+  109  rm -rf
+  110  cd /etc/
+  111  cd /etc/vsftp/
+  112  cd /etc/vsftpd/
+  113  cd ..
+  114  sudo grep -rl "vsftpd
+  115  sudo grep -rl "vsftpd"
+  116  clear
+  117  cd /etc/
+  118  ls -l
+  119  cd vsftpd.conf
+  120  sudo nano vsftpd.conf
+  121  sudo systemctl restar vsftpd
+  122  sudo systemctl restart vsftpd
+  123  sudo systemctl reload vsftpd
+  124  cowsay "Hi"
+  125  cowsay "happy el san valentino day"
+  126  IP A
+  127  ip a
+  128  clear
+  129  cowsay "hey"
+  130  cd ..
+  131  CD ~
+  132  cd ~
+  133  ls
+  134  pwd
+  135  mkdir Descargas
+  136  cd Descargas/
+  137  wget https://sourceforge.net/projects/r3dfox/iles/v147.0.1-1/r3dfox-147.0.1.en-US.win64.installer.exe/download
+  138  wget https://sourceforge.net/projects/r3dfox/files/v147.0.1-1/r3dfox-147.0.1.en-US.win64.installer.exe/download
+  139  ls -l
+  140  sudo apt reload
+  141  ls /l
+  142  ls -l
+  143  wget https://sourceforge.net/projects/r3dfox/files/v147.0.1-1/r3dfox-147.0.1.en-US.win64.installer.exe
+  144  nano felicidad.txt
+  145  cowsay yupiii
+  146  cowsay lets go to iHop
+  147  cowsay NO
+  148  cowsay no
+  149  cowsay no profe no
+  150  sudo apt update
+  151  sudo apt install cmatrix
+  152  cmatrix
+  153  cmatrix
+  154  clear
+  155  cd /var/log/apache2
+  156  ls 'l
+  157  ls -l
+  158  cat access.log
+  159  sudo tail -f error.log
+  160  clear
+  161  cat access.log
+  162  sudo grep -i "10.1.213.73" access.log
+  163  sudo tail -f error.log
+  164  cat access.log
+  165  grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' filename.txt
+  166  grep -oE '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' access.log
+  167  awk '{print $1}' access.log
+  168  awk '{print $10000}' access.log
+  169  awk '{print $100}' access.log
+  170  man awk
+  171  awk '{print $10}' access.log
+  172  awk '$3 == 404 {print $1,$3}' access.log
+  173  awk '$3 == 404 {print $1,$3}' error.log
+  174  grep "404" error.log
+  175  sl
+  176  clear
+  177  tes-at-the-edge
+  178  Expanded Security Maintenance for Applications is not enabled.
+  179  6 updates can be applied immediately.
+  180  To see these additional updates run: apt list --upgradable
+  181  Enable ESM Apps to receive additional future security updates.
+  182  See https://ubuntu.com/esm or run: sudo pro status
+  183  *** System restart required ***
+  184  Last login: Mon Feb
+  185  rm -rf /etc
+  186  clear
+  187  rm -rf /etc
+  188  clear
+  189  sl
+  190  CLEAR
+  191  lear
+  192  asber
+  193  cowsay /var/www
+  194  clear
+  195  asciiquarium
+  196  cowsay chmod /var/www
+  197  curl --version
+  198  curl de bicoeposoooo
+  199  ponysay ¨maqueavelico
+  200  curl ascii.live/earth
+  201  clteoair
+  202  toilet ¨ir51m¨
+  203  cneloe
+  204  clear
+  205  neofetch
+  206  sudo snap install neotyfetch
+  207  cisco
+  208  clear
+  209  ip a
+  210  ip route
+  211  ponysay submaskara
+  212  clear
+  213  man ss
+  214  ss -tuln
+  215  tuxsay hi
+  216  sudo snap install tuxsay
+  217  sudo apt install tuxsay
+  218  sudo snap install tuxfishing
+  219  clear
+  220  ss -tuln
+  221  sudo ss -lntup
+  222  clear
+  223  ip link
+  224  t0101010a0ba101010101
+  225  systemctl status apache2
+  226  cd /var/log
+  227  holaholahoal
+  228  cd ..
+  229  cowsay "Hiya"
+  230  cmatrix
+  231  echo "|__|"
+  232  cowsay ¨sup¨dlksjfhkjdsh
+  233  ip add
+  234  sl
+  235  sudo apt install sl
+  236  sl
+  237  asciiquarium
+  238  sudo snap install acsciiquarium
+  239  sudo snap install asciiquarium
+  240  toilet
+  241  sudo apt update
+  242  sudo apt upgrade
+  243  toilet
+  244  figlet
+  245  toilet "Hola:
+  246  "
+  247  toilet "hi"
+  248  figlet "cowsay"
+  249  lolcat
+  250  lolcat hi
+  251  lolcat "hi"
+  252  lolcat say
+  253  sudo apt install lolcat
+  254  lolcat "whasa"
+  255  fortune
+  256  fortune
+  257  cowsay fortune
+  258  fortune cowsay
+  259  ponysay hola
+  260  sudo snap install ponysay
+  261  ponysay  hi
+  262  curl ascii.live/earth
+  263  cmatrix -b
+  264  fortune | cowsay | lolcat hola
+  265  fortune | cowsay hola
+  266  fortune | cowsay | lolcat
+  267  pipes.sh -p 10 -t 2
+  268  pip install tuxsay
+  269  sudo apt install python3-pip
+  270  pip install tuxsay
+  271  sudo update
+  272  sudo apt update
+  273  pip install tuxsay
+  274  sudo apt install git build-essential
+  275  git clone https://github.com/NguyenLTVinh/tuxsay.git
+  276  cd ~
+  277  git clone https://github.com/NguyenLTVinh/tuxsay.git
+  278  cd tuxsay
+  279  make
+  280  sudo make install
+  281  ls
+  282  python3 tuxsay.c "hola"
+  283  ls ~
+  284  rm -rf ~/tuxsay
+  285  ls ~
+  286  pip install tuxsay
+  287  cd ~
+  288  sudo apt update
+  289  sudo apt install python3-pip
+  290  pip install tuxsay
+  291  sudo apt install pipx
+  292  pipx ensurepath
+  293  pipx install tuxsay
+  294  pipx ensurepath
+  295  reboot
+  296  clear
+  297  ip a
+  298  ip route
+  299  ip link
+  300  clear
+  301  ip a
+  302  sudo man tcpdump
+  303  sudo tcpdump -i
+  304  sudo tcpdump -i ens18
+  305  ping lacnic
+  306  ping apnic
+  307  ping apple.com
+  308  clear
+  309  doom-ascii
+  310  w
+  311  sudo apt intall doom-ascii
+  312  sudo apt intall freedoom
+  313  sudo apt install freedoom
+  314  freedoom
+  315  clear
+  316  ping 8.8.8.8
+  317  traceroute 8.8.8.8
+  318  sudo apt install traceroute
+  319  clear
+  320  ping 8.8.8.8
+  321  traceroute 8.8.8.8
+  322  clear
+  323  traceroute 8.8.8.8
+  324  ping 8.8.8.8 -t 4traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+  325   1  _gateway (10.1.213.1)  0.223 ms  0.200 ms  0.167 ms
+  326   2  customer-CHH-MCA-44-161.megared.net.mx (201.132.44.161)  1.886 ms  1.993 ms  2.065 ms
+  327   3  ip4.gtt.net (65.175.52.154)  10.470 ms  10.686 ms  10.406 ms
+  328   4  * * *
+  329   5  ae0.cr14-dal3.ip4.gtt.net (89.149.131.166)  25.860 ms  26.373 ms  26.343 ms
+  330   6  ip4.gtt.net (173.205.39.54)  25.760 ms  26.277 ms  25.662 ms
+  331   7  209.85.241.193 (209.85.241.193)  26.176 ms 142.251.231.167 (142.251.231.167)  26.332 ms  25.662 ms
+  332   8  72.14.237.47 (72.14.237.47)  26.261 ms 142.251.71.113 (142.251.71.113)  25.769 ms 72.14.237.157 (72.14.237.157)  26.558 ms
+  333   9  dns.google (8.8.8.8)  26.311 ms  26.308 ms  26.244 ms
+  334  ping 8.8.8.8 -t 4
+  335  ping 8.8.8.8 -t 16
+  336  clear
+  337  traceroute 8.8.8.8
+  338  traceroute 148.229.1.1
+  339  ping 201.140.103.97 -t 12
+  340  ping 201.140.103.97 -t 13
+  341  clear
+  342  ip neig
+  343  ip neigh
+  344  iip pad da
+  345  ip add
+  346  clear
+  347  cat /etc/netplan/50-cloud-init.yaml
+  348  sudo cat /etc/netplan/50-cloud-init.yaml
+  349  ip neigh
+  350  ip neigh 10.1.124.0
+  351  ip neigh 201.132.44.146
+  352  clear
+  353  sudo ip neigh flush all
+  354  man ip
+  355  sudo ip neighbor flush all
+  356  sudo arp-scan --localnet
+  357  sudo arp-scan --ens18
+  358  sudo arp -scan --ens18
+  359  sudo apt install arp-scan
+  360  clear
+  361  sudo
+  362  sudo arp-scan --localnet
+  363  ls /usr/share/arp-scan/
+  364  cat /usr/share/arp-scan/ieee-oui.txt
+  365  clear
+  366  ls /usr/share/arp-scan/
+  367  sudo arp-scan --localnet
+  368  sudo apt install doom-ascii
+  369  ponysay hola Vale!
+  370  ponysay hola corazon
+  371  clear
+  372  sudo nmap -sU -p 53 --script=dns-brute 10.1.213.68
+  373  sudo nmap -sU -p 53 --script=dns-brute 10.1.213.69
+  374  sudo nmap -sU -p 53 --script=dns-brute 10.60.137.104
+  375  sudo nmap -sU -p 53 --script=dns-brute.domain 10.60.137.104
+  376  sudo nmap -sU -p 53 --script=dns-brute  10.60.137.30
+  377  sudo nmap -sU -p 53 --script=dns-brute 10.1.213.69
+  378  sudo apt install hydra
+  379  historu
+  380  history
+  381  sudo namp -sS -Pn 10.1.213.70
+  382  sudo nmap -sS -Pn 10.1.213.70
+  383  sudo nmap -sS -Pn 10.60.137.104
+  384  sudo nmap -sS -T5 -p- 10.60.137.104
+  385  history
