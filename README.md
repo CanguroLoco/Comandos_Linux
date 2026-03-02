@@ -1,8 +1,6 @@
 # Comandos_Linux
 comandos extraídos de una clase de linux en servidores. 
 
-Aquí tienes las tablas actualizadas con las dos columnas adicionales ("Función del Comando" y "Explicación de Argumentos") para detallar qué hace cada herramienta y para qué sirven las opciones especificadas:
-
 
 | Programa | Función Corta |
 | --- | --- |
