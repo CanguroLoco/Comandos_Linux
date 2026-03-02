@@ -3,7 +3,6 @@ comandos extraídos de una clase de linux en servidores.
 
 Aquí tienes las tablas actualizadas con las dos columnas adicionales ("Función del Comando" y "Explicación de Argumentos") para detallar qué hace cada herramienta y para qué sirven las opciones especificadas:
 
-```markdown
 # Comandos_Linux
 comandos extraídos de una clase de linux en servidores. 
 
@@ -106,4 +105,3 @@ comandos extraídos de una clase de linux en servidores.
 | cat | (Ninguna) | /etc/passwd, /etc/shadow... | Concatena archivos e imprime el contenido en la salida estándar (terminal). | (Recibe el archivo que se desea leer). |
 | tail | -f  | /var/log/syslog... | Muestra la parte final de los archivos. | `-f`: Sigue los cambios del archivo en vivo. |
 | du  | -sh | /var/log | Muestra el uso de espacio en disco de archivos y directorios. | `-s`: Resumen (Total). `-h`: Formato legible para humanos (MB, GB). |
-```
