@@ -87,6 +87,7 @@ comandos extraídos de una clase de linux en servidores.
 | nmap | -sV, -O | 10.1.213.50... | Escáner de red. | `-sV`: Detecta versiones de servicios. `-O`: Detecta Sistema Operativo. |
 | arpspoof | -i, -t | `eth0`, `10.1.213.1`, `10.1.213.50` | Intercepta paquetes en una red local mediante falsificación de respuestas ARP. | `-i`: Interfaz de red. `-t`: Especifica el objetivo (target) y el host a suplantar. |
 | ping | (Ninguna) | 10.1.213.6... | Envía paquetes ICMP ECHO_REQUEST a hosts de red para verificar conectividad. | (Recibe la IP o dominio objetivo). |
+| hping3 | -S, -p, --flood, -1, -c | 10.1.213.50, 8.8.8.8 | Generador y analizador de paquetes TCP/IP a medida para auditorías y pruebas de estrés. | `-S`: Envía flags SYN (TCP). `-p`: Puerto destino. `--flood`: Envía paquetes lo más rápido posible. `-1`: Usa ICMP (Ping). `-c`: Número de paquetes. |
 | tcpdump | -i  | ens18 arp, ens18 tcp | Analizador de paquetes de red desde la consola (Sniffer). | `-i`: Especifica la interfaz a escuchar (ej: ens18). |
 | netplan | apply | (Configuración de red) | Utilidad para configurar redes en Ubuntu/Debian modernos. | `apply`: Aplica los cambios realizados en los archivos .yaml de configuración. |
 | hostname | (Ninguna) | (Sistema) | Muestra o establece el nombre de red del sistema. | (Ninguna, para mostrar el nombre actual). |
