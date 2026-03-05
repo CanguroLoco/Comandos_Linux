@@ -384,3 +384,12 @@
   383  sudo nmap -sS -Pn 10.60.137.104
   384  sudo nmap -sS -T5 -p- 10.60.137.104
   385  history
+  386  clear
+  387  who
+  388  w
+  389  log out
+  390  logout
+  391  logouot
+  392  clear
+  393  logout
+  394  history
