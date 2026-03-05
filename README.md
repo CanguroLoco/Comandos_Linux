@@ -106,3 +106,10 @@ comandos extraídos de una clase de linux en servidores.
 | cat | (Ninguna) | /etc/passwd, /etc/shadow... | Concatena archivos e imprime el contenido en la salida estándar (terminal). | (Recibe el archivo que se desea leer). |
 | tail | -f  | /var/log/syslog... | Muestra la parte final de los archivos. | `-f`: Sigue los cambios del archivo en vivo. |
 | du  | -sh | /var/log | Muestra el uso de espacio en disco de archivos y directorios. | `-s`: Resumen (Total). `-h`: Formato legible para humanos (MB, GB). |
+
+pendiente agregar:
+hydra -l usuario -P diccionario.txt ssh://ip.add.re.ss
+fail2ban se configura en
+hydra también se puede apoyar de
+-t numero de intentos entre tiempo
+-W segundos entre intento
