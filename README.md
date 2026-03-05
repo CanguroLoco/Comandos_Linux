@@ -56,6 +56,7 @@ comandos extraídos de una clase de linux en servidores.
 | awk | $3 == 404 {print $1,$3}' | access.log, error.log | Lenguaje de procesamiento y escaneo de patrones en texto. | `$3 == 404`: Filtra si la 3ra columna es 404. `{print...}`: Imprime las columnas 1 y 3. |
 | tail | -f  | error.log | Muestra la última parte (cola) de un archivo. | `-f`: (Follow) Muestra los cambios en el archivo en tiempo real. |
 | cd  | (Rutas nuevas) | evillimiter, Descargas... | Cambia de directorio de trabajo. | (Recibe la ruta hacia donde navegar). |
+| hostnamectl | set-hostname "arg" | no directorios relacionados... | Sirve para cambiar de nombre la máquina del equipo | no se han visto argumentos | 
 
 ### Filtros y Contextos
 
