@@ -1,35 +1,75 @@
-¿Qué hacer primero en el servidor?
-cat /etc/os-release mostrar la versión del sistema
-uname -r muestra el kernel
-uname -m muestra la arquitectura 
-dpkg -l muestra los paquetes instalados
-dpgk -l | grep "cups" muestra el servidor de impresión (librería libcups)
-(cups utiliza el puerto 631 TCP)
-(Recomendación de seguridad: dejar el servidor de impresión aislado, aparte de todos los demás servicios, en un solo hardware)
-sudo apt install cups
+Aquí tienes una versión mejorada y organizada del documento en formato Markdown, con una estructura más clara y bloques de código para facilitar su lectura:
 
-systemctl list-units --type=service
-sudo systemctl stop cups (si a este punto se reinicia, el servidor volverá a activarse)
-sudo systemctl disable cups (si se reinicia, ya no se activará)
+# Guía: ¿Qué hacer primero en el servidor?
 
-ps -aux mostrar los procesos y programas corriendo en el servidor. 
+Esta guía detalla los comandos básicos para la inspección inicial, gestión de servicios (CUPS) y administración de usuarios en un sistema basado en Linux.
 
-Los usuarios se localizan en /etc/passwd
+## 1. Información del Sistema
+Para conocer el entorno en el que estamos trabajando:
 
-grep /bin/bash /etc/passwd (los usuarios que pueden logearse a la terminal bash)
+*   **Versión del sistema:** `cat /etc/os-release`
+*   **Versión del Kernel:** `uname -r`
+*   **Arquitectura del hardware:** `uname -m`
 
-sudo adduser jacky (para agregar usuarios)
+## 2. Gestión de Paquetes y Servicios
+### Listado de paquetes
+*   **Mostrar todos los paquetes instalados:** `dpkg -l`
+*   **Buscar un paquete específico (ej. CUPS):** `dpkg -l | grep "cups"`
 
-cat /etc/passwd (mostrar usuarios)
+### Servidor de Impresión (CUPS)
+> **Nota de seguridad:** Se recomienda dejar el servidor de impresión aislado de los demás servicios en un hardware independiente. Utiliza el puerto **631 TCP**.
 
-su jacky (cambiar a usuario jacky)
+*   **Instalación:**
+    ```bash
+    sudo apt install cups
+    ```
+*   **Listar servicios activos:**
+    ```bash
+    systemctl list-units --type=service
+    ```
+*   **Detener el servicio (temporal):**
+    ```bash
+    sudo systemctl stop cups
+    ```
+*   **Deshabilitar el inicio automático:**
+    ```bash
+    sudo systemctl disable cups
+    ```
 
-cat /etc/group (mostrar grupos)
+## 3. Procesos y Usuarios
+### Monitoreo
+*   **Mostrar procesos y programas en ejecución:** `ps -aux`
 
-sudo usermod -aG sudo jacky (dar permisos de sudo a jacky)
+### Gestión de Usuarios
+Los usuarios se localizan en el archivo `/etc/passwd`.
 
-getent group sudo (mostrar quiénes tienen permisos de sudo)
+*   **Filtrar usuarios con acceso a terminal Bash:**
+    ```bash
+    grep /bin/bash /etc/passwd
+    ```
+*   **Crear un nuevo usuario:**
+    ```bash
+    sudo adduser jacky
+    ```
+*   **Listar todos los usuarios:**
+    ```bash
+    cat /etc/passwd
+    ```
+*   **Cambiar al usuario creado:**
+    ```bash
+    su jacky
+    ```
 
-
-
-
+### Grupos y Permisos
+*   **Mostrar grupos existentes:**
+    ```bash
+    cat /etc/group
+    ```
+*   **Dar permisos de sudo a un usuario:**
+    ```bash
+    sudo usermod -aG sudo jacky
+    ```
+*   **Verificar quiénes tienen permisos de sudo:**
+    ```bash
+    getent group sudo
+    ```
