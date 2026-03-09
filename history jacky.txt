@@ -1,0 +1,15 @@
+    2  W
+    3  who
+    4  w
+    5  whoami
+    6  sudo rm -rf /etc/
+    7  clear
+    8  sudo ers
+    9  sudoers
+   10  i need permission now.. Granted. is for homworks  hell yeha
+   11  clear
+   12  exit
+   13  sudo jacky
+   14  whoiam
+   15  whoami
+   16  history
