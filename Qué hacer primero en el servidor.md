@@ -73,3 +73,22 @@ Los usuarios se localizan en el archivo `/etc/passwd`.
     ```bash
     getent group sudo
     ```
+
+filtrar quiénes tienen acceso a bash y permisos
+grep /bin/bash /etc/passwd
+
+en /etc/fail2ban/jail.conf 
+
+tail -f archivo para monitorear logs en tiempo real
+
+ss -tunap para ver las conexiones establecidas 
+
+sudo apt install chkrootkit para escanear virus?
+
+sudo chkrootkit para correr el antivirus
+
+grep "Accepted" /var/log/auth para filtrar conexiones exitosas de ssh
+
+arp who-has 10.1.213.50 tell 10.1.213.70 para descubrir la MAC de esa ip (no sirvió xd)
+
+nmap 10.1.213.89
