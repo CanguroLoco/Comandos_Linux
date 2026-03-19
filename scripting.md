@@ -27,41 +27,9 @@ El comando `chmod` utiliza una estructura de **3 espacios de 3 bits**. Cada bit 
 - **Y**: Permisos del **Grupo**.
 - **Z**: Permisos de **Otros**.
 
----
-
-## 3. Script de Monitoreo de Servicios
-Este script en Bash permite gestionar de forma interactiva el estado de servicios comunes como `ssh`, `ftp`, `apache2`, `fail2ban`, `ufw` e `isc-dhcp`.
-
-administración de servidor
-
-systemctl list-units --type=service
-
-CHMOD funciona con 3 espacios de 3 bits. Cada bit reprsenta un permiso
-
-100 leer
-010 escribir
-001 ejecutar (necesario para los scripts)
-
-CHMOD XYZ
-
-X = permisos de usuario
-Y = permisos de grupo
-Z = permisos de otros
-
-
-scripts para monitorear servicios
-ssh
-ftp
-apache2
-fail2ban
-firewall ufw
-isc-dhcp
-
-script
-
+## script de monitoreo 
 ```
-#!/bin/bash
- 
+#!/bin/bash 
 # Menù para el usuario
 while true
 do
