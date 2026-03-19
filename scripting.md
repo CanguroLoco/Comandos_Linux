@@ -1,3 +1,37 @@
+Aquí tienes una versión reestructurada y profesional de la documentación para que sea más fácil de leer y consultar.
+
+---
+
+# Guía de Administración de Servidores y Scripting en Linux
+
+Este documento detalla conceptos fundamentales sobre gestión de servicios con `systemctl`, la estructura de permisos `chmod` y un script interactivo para la administración de servicios.
+
+## 1. Gestión de Servicios
+Para listar todos los servicios activos en el sistema, utiliza el siguiente comando:
+
+```bash
+systemctl list-units --type=service
+```
+
+## 2. Permisos de Archivo (`CHMOD`)
+El comando `chmod` utiliza una estructura de **3 espacios de 3 bits**. Cada bit representa un nivel de acceso:
+
+| Valor Binario | Valor Decimal | Permiso |
+| :--- | :--- | :--- |
+| `100` | **4** | Leer (Read) |
+| `010` | **2** | Escribir (Write) |
+| `001` | **1** | Ejecutar (Execute) — *Requerido para scripts* |
+
+### Estructura de `CHMOD XYZ`
+- **X**: Permisos del **Usuario** (Propietario).
+- **Y**: Permisos del **Grupo**.
+- **Z**: Permisos de **Otros**.
+
+---
+
+## 3. Script de Monitoreo de Servicios
+Este script en Bash permite gestionar de forma interactiva el estado de servicios comunes como `ssh`, `ftp`, `apache2`, `fail2ban`, `ufw` e `isc-dhcp`.
+
 administración de servidor
 
 systemctl list-units --type=service
