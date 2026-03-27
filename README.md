@@ -113,3 +113,14 @@ fail2ban se configura en
 hydra también se puede apoyar de
 -t numero de intentos entre tiempo
 -W segundos entre intento
+
+# TAREA
+monitorear en las pcs estadísticas de uso de hardware (uso cpu, ram procesador, etc.)
+
+
+apache
+fail2ban
+isc dhcp
+ssh
+vsftpd
+
